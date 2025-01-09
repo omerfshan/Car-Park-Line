@@ -1,4 +1,4 @@
-# Unity tarafından oluşturulan klasörler ve dosyalar
+
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
@@ -7,10 +7,10 @@
 [Ll]ogs/
 [Mm]emoryCaptures/
 
-# Unity meta dosyaları
+
 /[Aa]ssets/**/*.meta
 
-# Visual Studio, JetBrains Rider ve diğer IDE dosyaları
+
 .vscode/
 *.csproj
 *.unityproj
@@ -21,14 +21,13 @@
 *.booproj
 *.user
 
-# OS spesifik dosyalar
 .DS_Store
 Thumbs.db
 
-# Unity Crash ve Log dosyaları
+
 crashlytics-build/
 *.log
 
-# Bazı kişisel ve geçici ayarlar
+
 *.swp
 *.tmp
