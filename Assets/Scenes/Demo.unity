@@ -38,7 +38,6 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.17948122, g: 0.22473428, b: 0.30636293, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -746,7 +745,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
-  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_BackGroundColor: {r: 0, g: 0, b: 0, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -840,12 +839,12 @@ MonoBehaviour:
   m_RequiresColorTexture: 0
   m_Version: 2
   m_TaaSettings:
-    quality: 3
-    frameInfluence: 0.1
-    jitterScale: 1
-    mipBias: 0
-    varianceClampScale: 0.9
-    contrastAdaptiveSharpening: 0
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
 --- !u!4 &362981722 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 9cd866a85d94da24b9ed88b983d09c6f,
@@ -1486,7 +1485,7 @@ Transform:
   m_GameObject: {fileID: 750234912}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 1.37, y: -3, z: 2.17}
+  m_LocalPosition: {x: -3.52, y: -3, z: 2.17}
   m_LocalScale: {x: 0.45, y: 0.45, z: 0.45}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1688,8 +1687,8 @@ MonoBehaviour:
   line: {fileID: 1834278333}
   car: {fileID: 1222311849}
   park: {fileID: 1305318705}
-  carColor: {r: 0.9056604, g: 0.11534355, b: 0.11534355, a: 1}
-  lineColor: {r: 0.8867924, g: 0, b: 0, a: 0.22745098}
+  carColor: {r: 0.11372546, g: 0.65173817, b: 0.90588236, a: 1}
+  lineColor: {r: 0.11372549, g: 0.6509804, b: 0.90588236, a: 0.22745098}
 --- !u!4 &878638491 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 103469141508107622, guid: a2795801197c0414db6dab956b244703,
@@ -2253,7 +2252,7 @@ Transform:
   m_GameObject: {fileID: 1305318701}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: -2.5, y: -3, z: 2.17}
+  m_LocalPosition: {x: 1.27, y: -3, z: 2.17}
   m_LocalScale: {x: 0.45, y: 0.45, z: 0.45}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2323,7 +2322,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 9a6182674e2593b47833da866c261c9c, type: 3}
-  m_Color: {r: 0.9056604, g: 0.11534355, b: 0.11534355, a: 1}
+  m_Color: {r: 0.11372546, g: 0.65173817, b: 0.90588236, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2643,7 +2642,7 @@ Transform:
   m_GameObject: {fileID: 1655483557}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 2.7, z: 0}
+  m_LocalPosition: {x: -5.6099997, y: 2.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2710,7 +2709,7 @@ LineRenderer:
   m_SortingOrder: 0
   m_Positions:
   - {x: -3.3188105, y: -2.9931087, z: -3.2755654}
-  - {x: 1.37, y: -3, z: 2.49}
+  - {x: -3.52, y: -3, z: 2.49}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -2901,7 +2900,7 @@ Transform:
   m_GameObject: {fileID: 1834278330}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 2.7, z: 0}
+  m_LocalPosition: {x: 3.77, y: 2.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2928,7 +2927,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c072c264a15d3fe449d654655dc98821, type: 2}
+  - {fileID: 2100000, guid: 405ac8982dc2275419cf661ed85007b9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2951,7 +2950,7 @@ LineRenderer:
   m_SortingOrder: 0
   m_Positions:
   - {x: 1.6668898, y: -2.9931087, z: -3.2755654}
-  - {x: -2.5, y: -3, z: 2.49}
+  - {x: 1.27, y: -3, z: 2.49}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 1
@@ -2972,7 +2971,7 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 1}
+      key0: {r: 0.28235295, g: 0.96862745, b: 0.99607843, a: 1}
       key1: {r: 1, g: 1, b: 1, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
@@ -2997,7 +2996,7 @@ LineRenderer:
       atime6: 0
       atime7: 0
       m_Mode: 0
-      m_ColorSpace: -1
+      m_ColorSpace: 0
       m_NumColorKeys: 2
       m_NumAlphaKeys: 2
     numCornerVertices: 2
@@ -3400,7 +3399,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bf9c5e8630b077d44b9e52cd75a74a41, type: 2}
+  - {fileID: 2100000, guid: 5cb3b1a96a1995a43a4fe97ae2ae8883, type: 2}
   - {fileID: 9185737683893222716, guid: 17892c3dbc749fc43aa4a43231f44d07, type: 3}
   - {fileID: -8274133419916619345, guid: 17892c3dbc749fc43aa4a43231f44d07, type: 3}
   - {fileID: -1457518269832947001, guid: 17892c3dbc749fc43aa4a43231f44d07, type: 3}
