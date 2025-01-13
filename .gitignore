@@ -31,3 +31,5 @@ crashlytics-build/
 
 *.swp
 *.tmp
+
+.fake
